@@ -17,5 +17,6 @@ contract WavePortal {
 
     function getTotalWaves() public view returns (uint) {
         console.log("We have %d total waves!", totalWaves);
+        return totalWaves;
     }
 }
